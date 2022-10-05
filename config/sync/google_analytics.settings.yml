@@ -6,9 +6,9 @@ cross_domains: ''
 visibility:
   request_path_mode: 0
   request_path_pages: ''
-  user_role_mode: 0
+  user_role_mode: 1
   user_role_roles: {  }
-  user_account_mode: 0
+  user_account_mode: 1
 track:
   outbound: true
   mailto: true
@@ -25,7 +25,7 @@ track:
     error: error
   site_search: false
   adsense: false
-  displayfeatures: true
+  displayfeatures: false
 privacy:
   anonymizeip: true
 custom:
